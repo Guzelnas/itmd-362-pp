@@ -11,6 +11,7 @@ html{
   font-size: 1.125em; /* 18 / 16 = 1.125em */
   line-height: 1.222em; /* 22 / 18 = 1.222em */
   font-family: fantasy;
+  background-color: grey;
 }
 
 li{
