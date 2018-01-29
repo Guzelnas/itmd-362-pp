@@ -3,11 +3,12 @@ $('#contact-form').on("submit", function(e) {
       var phoneValid = /^\d{10}$/;
       e.preventDefault();
       if (!phoneValid.test(phone)) {
-        console.log('Wrong phone format')
+        console.log('Wrong phone format');
         $('#invalid').remove();
         $('#contact-form')append('<li id = "invalid">Phone number must contain 10 digits!</li>');
         return false;
       } else {
-        $(this).html('The form was submitted');
+        $(this).remove();
+        $('body').html('The form was submitted');
       }
-    };
+    }
