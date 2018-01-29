@@ -12,3 +12,4 @@ $('#contact-form').on("submit", function(e) {
         $('body').html('The form was submitted');
       }
     }
+  );
