@@ -8,6 +8,7 @@ $('#contact-form').on("submit", function(e) {
     $('#contact-form') append('Phone number must contain 10 digits!');
     return false;
   } else {
+    $(this).remove();
     $('#contact-form').append('The form was submitted');
   }
 });
