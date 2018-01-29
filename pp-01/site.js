@@ -1,11 +1,11 @@
 $('#contact-form').on("submit", function(e) {
-  var phone = $('#phone').val();
-  var phoneValid = /^\d{10}$/;
+  var email = $('#email').val();
+  var emailValid = /.+@.+/;
   e.preventDefault();
-  if (!phoneValid.test(phone)) {
-    console.log('invalid phone');
+  if (!emailValid.test(email)) {
+    console.log('invalid email');
     $('#invalid').remove();
-    $('#contact-form') append('Phone number must contain 10 digits!');
+    $('#contact-form') append('Wrong email');
     return false;
   } else {
     $(this).remove();
