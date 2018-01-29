@@ -10,4 +10,5 @@ $('#contact-form').on("submit", function(e) {
       } else {
         $('#invalid').remove();
         $(this).html('The form was submitted');
-      });
+      }
+    };
