@@ -9,7 +9,7 @@ $('#contact-form').on("submit", function(e) {
         return false;
       } else {
         $(this).remove();
-        $('body').html('The form was submitted');
+        $('body').append('The form was submitted');
       }
     }
   );
