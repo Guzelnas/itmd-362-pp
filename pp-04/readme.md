@@ -21,16 +21,26 @@ Focus on touch-related elements.
 
 ## Deliverables
 
+
+
 Small commits to your Production Problems repository that include:
 
 1) photographs of sketches of your new design, from your sketchbook
 2) an explanation of three different points of guidance from your chosen guidelines (point to the
    specific URL where the guidance can be found) that you implemented in your sketch, written below:
 
-* HCI Guidline One (URL):
-* How you implemented it in your sketch:
+* HCI Guidline One (URL):  
+https://material.io/guidelines/usability/accessibility.html#accessibility-hierarchy-focus  
+
+Important actions: Place important actions at the top or bottom of the screen (reachable with shortcuts)  
+Related items: Place related items of a similar hierarchy next to each other  
+
+* How you implemented it in your sketch:  
+
+
 
 * HCI Guidline Two (URL):
+https://material.io/guidelines/usability/accessibility.html#accessibility-implementation
 * How you implemented it in your sketch:
 
 * HCI Guidline Three (URL):
